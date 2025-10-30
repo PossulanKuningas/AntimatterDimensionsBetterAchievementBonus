@@ -29,7 +29,6 @@ const disabledMechanicUnlocks = {
   singularity: () => ({}),
   continuum: () => ({}),
   alchemy: () => ({}),
-  achievementMult: () => ({}),
   blackhole: () => ({}),
   effarig: () => ({}),
   imaginaryUpgrades: () => ({}),
@@ -298,7 +297,7 @@ export const Pelle = {
   },
 
   realityShardGain(remnants) {
-    return Decimal.pow(10, remnants ** (1 / 7.5) * 4).minus(1).div(1e3);
+    return Decimal.pow(10, remnants ** (1 / 7.5) * 4).minus(1).div(10);
   },
 
   get realityShardGainPerSecond() {

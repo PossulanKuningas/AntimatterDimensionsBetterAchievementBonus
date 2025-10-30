@@ -418,8 +418,8 @@ Each Achievement has requirements to unlock. Once unlocked, some Achievements gi
 Requirements and rewards vary in difficulty and benefit significantly.
 <br>
 <br>
-In addition to any specific rewards for individual Achievements, you will receive a ${formatX(1.03, 2, 2)} multiplier
-to all Antimatter Dimensions. Each fully completed row also gives another ${formatX(1.25, 2, 2)}. The total multiplier
+In addition to any specific rewards for individual Achievements, you will receive a ${formatX(1.25, 2, 2)} multiplier
+to all Antimatter Dimensions. Each fully completed row also gives another ${formatX(2, 2, 2)}. The total multiplier
 effect from all Achievements together is shown above all the Achievement images.
 <br>
 <br>

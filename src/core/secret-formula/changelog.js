@@ -9,6 +9,20 @@ export const changelog = [
    * }
    */
   {
+	date: [2025, 10, 30],
+	name: "Strong achievements",
+	info: `
+<b>Changed the achievement multiplier formula:</b><br>
+<ul>
+<li>Multiplier per achievement changed from 1.03 to 1.25</li>
+<li>Multiplier per achievement row changed from 1.25 to 2</li>
+</ul>
+<b>Changed Cel7 balance to fit the rest of the game:</b><br>
+<ul>
+<li>Reality shard gain multiplied by 100</li>
+`
+  },
+  {
     date: [2024, 8, 12],
     name: "Hi Ra",
     info: `
@@ -38,6 +52,7 @@ export const changelog = [
 <br>
 `
   },
+
   {
     date: [2024, 5, 2],
     name: "Celebrate Android Reality Update",
